@@ -1,0 +1,13 @@
+---
+
+address: "localhost"
+port: 1812
+# Timeout in seconds to wait for an answer from the server
+timeout: 3 
+secret: "testing123"
+
+accounts:
+  - username: "bob"
+    password: "test"
+  - username: "unknown"
+    password: "wrong"
